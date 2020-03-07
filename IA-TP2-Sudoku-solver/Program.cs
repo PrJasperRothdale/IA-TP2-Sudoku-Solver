@@ -8,7 +8,8 @@ namespace IA_TP2_Sudoku_solver
         {
             int size = presentation();
             int _mode = mode();
-            SudokuGenerator sg = new SudokuGenerator();
+            //SudokuGenerator sg = new SudokuGenerator();
+            SudokuGen sg = new SudokuGen(size);
             int[,] sudoku = new int[size,size];
 
             if (_mode == 1)
@@ -21,6 +22,7 @@ namespace IA_TP2_Sudoku_solver
             }
 
             Solver solver = new Solver(sudoku);
+            solver.solve();
 
         }
 

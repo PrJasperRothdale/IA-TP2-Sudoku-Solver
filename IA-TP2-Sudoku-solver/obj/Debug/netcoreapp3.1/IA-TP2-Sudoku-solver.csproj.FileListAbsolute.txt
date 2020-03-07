@@ -1,0 +1,11 @@
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\bin\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.exe
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\bin\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.deps.json
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\bin\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.runtimeconfig.json
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\bin\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.runtimeconfig.dev.json
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\bin\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.dll
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\bin\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.pdb
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\obj\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.csprojAssemblyReference.cache
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\obj\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.AssemblyInfoInputs.cache
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\obj\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.AssemblyInfo.cs
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\obj\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.dll
+Q:\Cours\UQAC\M1 - Informatique recherche\Intelligence artificielle\TP2 - Killian\IA-TP2-Sudoku-solver\obj\Debug\netcoreapp3.1\IA-TP2-Sudoku-solver.pdb

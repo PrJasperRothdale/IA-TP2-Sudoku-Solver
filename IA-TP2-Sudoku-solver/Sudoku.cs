@@ -10,10 +10,10 @@ namespace IA_TP2_Sudoku_solver
         int[,][] domain;
         List<Constraint> constraints;
 
-        public Sudoku(int size)
+        public Sudoku(int[,] initial_state)
         {
-            state = new int[size, size];
-            domain = new int[size, size][];
+            state = (int[,]) initial_state.Clone();
+            domain = new int[state.GetLength(0), state.GetLength(1)][];
             constraints = generateSudokuConstraints();
         }
 
@@ -29,12 +29,49 @@ namespace IA_TP2_Sudoku_solver
 
         public int[,][] getDomain()
         {
+            domain = getDomain(state);
             return domain;
         }
 
-        public void updateDomain()
+        public int[,][] getDomain(int[,] sudoku_state)
         {
+            int[,][] ndom = new int[sudoku_state.GetLength(0), sudoku_state.GetLength(1)][];
+            for (int i = 0; i < sudoku_state.GetLength(0); i++)
+            {
+                for (int j = 0; j < sudoku_state.GetLength(1); j++)
+                {
+                    int[,] scopy = (int[,])sudoku_state.Clone();
+                    List<int> domrow = new List<int>();
 
+                    for (int k = 0; k < sudoku_state.GetLength(0); k++)
+                    {
+                        scopy[i, j] = k;
+
+                        if (isConsistent(scopy))
+                        {
+                            domrow.Add(k);
+                        }
+                    }
+
+                    ndom[i, j] = domrow.ToArray();
+                }
+            }
+
+            return ndom;
+
+        }
+
+        public bool isConsistent(int[,] sudoku_state)
+        {
+            foreach (Constraint constraint in constraints)
+            {
+                if ( !constraint.check(state) )
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         private List<Constraints.LineConstraint> generateLineConstraints()

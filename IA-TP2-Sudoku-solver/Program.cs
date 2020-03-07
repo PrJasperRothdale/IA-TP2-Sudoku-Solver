@@ -9,12 +9,18 @@ namespace IA_TP2_Sudoku_solver
             int size = presentation();
             int _mode = mode();
             SudokuGenerator sg = new SudokuGenerator();
-            int[,] sudoku;
+            int[,] sudoku = new int[size,size];
 
             if (_mode == 1)
             {
                 sudoku = sg.generateSudoku(size);
             }
+            else
+            {
+                sudoku = sg.generateSudoku(size);
+            }
+
+            Solver solver = new Solver(sudoku);
 
         }
 
@@ -118,6 +124,7 @@ namespace IA_TP2_Sudoku_solver
             // Just a return to grant int function
             return -1;
         }
+
 
     }
 }

@@ -408,7 +408,7 @@ namespace IA_TP2_Sudoku_solver
         }
 
         // Print the grid of the sudoku
-        private void printGridState(int size)
+        public void printGridState(int size)
         {
 
             // Get grid matrix state
